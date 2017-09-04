@@ -3,8 +3,8 @@ import json
 from . import routes
 import requests
 from pprint import pprint
-VERIFY_TOKEN = '**'
-ACCESS_TOKEN = '**'
+VERIFY_TOKEN = 'kameronkales'
+ACCESS_TOKEN = 'EAAGZCfOZCdjZBwBANkL6JEMJ8BQodNR76c2HLpteN63F3phr4b9sqVjeGsapiCS1ZC5MzGJxXZA4dpLk6OHUZA0KJp1ZAnYaEijZBllkvbpnFCejFyCxj9y8nrCmjASxWTspIZAhBuEnWh3UBTOyJxGSDiZBAIxeKZBHiUeLcTBuZCkrHwZDZD'
 
 def reply(user_id, msg):
     data = {
